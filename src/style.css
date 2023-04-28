@@ -20,7 +20,7 @@ footer {
 .container {
   max-width: 800px;
   margin: 50px auto 30px;
-  background: rgb(245, 251, 242);
+  background: #fff6f6;
   padding: 50px 50px 40px;
   border-radius: 10px;
 }
@@ -52,11 +52,10 @@ footer {
   font-weight: 400;
 }
 .weatherIcon {
-  display: inline-block;
+  display: inline;
   height: 60px;
-  margin-top: unset;
   vertical-align: top;
-  width: 60px;
+  margin-right: 15px;
 }
 .temperature {
   font-size: 40px;
@@ -75,6 +74,7 @@ footer {
   line-height: 20px;
   list-style-type: none;
   padding: 0px;
+  margin-bottom: 0px;
 }
 .space {
   padding: 2px 0px;
