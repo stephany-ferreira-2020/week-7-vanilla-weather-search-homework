@@ -21,21 +21,28 @@ footer {
   max-width: 800px;
   margin: 50px auto 30px;
   background: rgb(245, 251, 242);
-  padding: 30px 50px 40px;
+  padding: 50px 50px 40px;
   border-radius: 10px;
 }
+.header {
+  margin-bottom: 30px;
+}
 .appTitle {
-  display: inline;
-  text-align: right;
+  display: block;
+  padding-top: 16px;
   color: #202124;
   font-size: 34px;
   line-height: 26px;
   font-family: Google Sans, arial, sans-serif;
   font-weight: 500;
-  padding: 0px;
 }
 .searchBar {
   margin: 0px -12px 10px;
+}
+.icon {
+  width: 100%;
+  color: #00bfa6;
+  padding-top: 5px;
 }
 .cityName {
   color: #202124;
